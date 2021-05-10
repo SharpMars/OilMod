@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "oilmod",
+  "version": "${version}",
+  "name": "Oil Mod",
+  "description": "",
+  "authors": [
+    "Mars"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/oilmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.mars.oilmod.OilMod"
+    ]
+  },
+  "mixins": [
+    "oilmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}

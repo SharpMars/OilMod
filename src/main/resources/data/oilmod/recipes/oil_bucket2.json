@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "oilmod:oil_bottle"
+    },
+    {
+      "item": "oilmod:oil_bottle"
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "group": "oil_bucket",
+  "result": {
+    "item": "oilmod:oil_bucket",
+    "count": 1
+  }
+}
+

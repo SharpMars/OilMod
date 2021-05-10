@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "me.mars.oilmod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "PlayerEntityMixin"
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
